@@ -1,0 +1,11 @@
+
+let l = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"];
+
+function exibeSeriados(lista) {
+
+    lista.forEach(function(item, indice) {
+        console.log(`[${indice}] ${item}`);
+    });
+}
+
+exibeSeriados(l);
